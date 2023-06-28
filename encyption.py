@@ -16,6 +16,7 @@ invertedDictionary = {key: val for val, key in passwordDictionary.items()}
 
 def encrypt():
     '''This function will encrypt the password'''
+    print("-------------------------- ENCRYPTION --------------------------")
     password = input("Enter Password : ")
     print("Code : ", end="")
     for x in password:
@@ -24,7 +25,8 @@ def encrypt():
 
 def decrypt():
     '''This function will decrypt the password'''
-    code = input("\nEnter code : ")
+    print("\n\n-------------------------- DECRYPTION --------------------------")
+    code = input("Enter code : ")
     code = wrap(code, 4)
     try:
         print("Password : ", end="")
