@@ -1,5 +1,5 @@
 # Password-Encryptor-and-Decryptor
-This program can encrypt the entered password and decrypt the same using encrypted password.
+This program can encrypt the entered password and decrypt the using encrypted password using decrypter.
 
 **OUTPUT :**
 
